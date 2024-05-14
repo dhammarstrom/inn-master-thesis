@@ -1,0 +1,57 @@
+project: 
+  type: book
+book: 
+  title: "Main title of the master thesis"
+  subtitle: "Subtitle of the master thesis"
+  author: "Daniel Hammarström"
+  date: "2024-05-15"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - titlepagetutorial.qmd
+    - summary.qmd
+    - references.qmd
+    
+bibliography: resources/references.bib
+
+format:
+  html:
+    theme: cosmo
+  titlepage-pdf: 
+    titlepage: vline 
+    titlepage-logo: "img/inn_eng.png"
+    titlepage-footer: | # text
+      Faculty of Social and Health Sciences\
+      Department of Public Health and Sport Sciences\
+      Section for Health and Exercise Physiology\
+      May 2024
+    titlepage-geometry: ["top=1in", "bottom=1in", "right=1in", "left=1in"]
+    titlepage-theme:
+      elements: ["\\titleblock", "\\authorblock", "\\vfill", "\\affiliationblock",  "\\logoblock", "\\footerblock"]
+      page-align: "left"
+      title-style: "plain"
+      title-fontstyle: ["large", "bfseries"]
+      title-space-after: "4\\baselineskip"
+      subtitle-fontstyle: ["large", "textit"]
+      author-style: "superscript-with-and"
+      author-fontstyle: "large"
+      affiliation-style: "numbered-list-with-correspondence"
+      affiliation-fontstyle: "large"
+      affiliation-space-after: "0pt"
+      footer-style: "plain"
+      footer-fontstyle: "large"
+      logo-size: "0.15\\textheight"
+      logo-space-after: "1\\baselineskip"
+      vrule-width: "2pt"
+      vrule-align: "left"
+      vrule-color: "black"
+      date-style: "colorbox"
+      date-fontfamily: "Arial"
+      date-fontsize: 12
+      date-spacing: 20
+      date-fontstyle: ["slseries"]
+      date-align: left
+      date-space-after: 1in
+      date-colorbox-fill: "cyan"
+      date-colorbox-borderwidth: 2pt
+      date-colorbox-bordercolor: "black"

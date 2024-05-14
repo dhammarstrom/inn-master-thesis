@@ -1,0 +1,5 @@
+# Preface {.unnumbered}
+
+This is a template for writing a master thesis at INN. 
+
+For a tutorial on how to add and edit a title page see here...

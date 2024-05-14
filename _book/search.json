@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Main title of the master thesis",
+    "section": "",
+    "text": "Preface\nThis is a template for writing a master thesis at INN.\nFor a tutorial on how to add and edit a title page see here…",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Example reference (Klein et al. 2018)\n\n\n\n\nKlein, Olivier, Tom E. Hardwicke, Frederik Aust, Johannes Breuer, Henrik Danielsson, Alicia Hofelich Mohr, Hans IJzerman, Gustav Nilsonne, Wolf Vanpaemel, and Michael C. Frank. 2018. “A Practical Guide for Transparency in Psychological Science.” Edited by Michéle Nuijten and Simine Vazire. Collabra: Psychology 4 (1): 20. https://doi.org/10.1525/collabra.158.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "titlepagetutorial.html",
+    "href": "titlepagetutorial.html",
+    "title": "2  Creating and editing a title page",
+    "section": "",
+    "text": "2.1 Install the extension\nUsing the terminal, install the extension to your existing quarto book project by typing:\nand follow the instructions. This will install the extension making it possibly to use pre-specified title-page themes.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Creating and editing a title page</span>"
+    ]
+  },
+  {
+    "objectID": "titlepagetutorial.html#install-the-extension",
+    "href": "titlepagetutorial.html#install-the-extension",
+    "title": "2  Creating and editing a title page",
+    "section": "",
+    "text": "quarto install extension nmfs-opensci/quarto_titlepages",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Creating and editing a title page</span>"
+    ]
+  },
+  {
+    "objectID": "titlepagetutorial.html#updating-the-_quarto.yml-file",
+    "href": "titlepagetutorial.html#updating-the-_quarto.yml-file",
+    "title": "2  Creating and editing a title page",
+    "section": "2.2 Updating the _quarto.yml file",
+    "text": "2.2 Updating the _quarto.yml file\nThe pre-specified themes comes with a set of yaml-values that will populate you title page. In the code below the yaml-field of the current book is reproduced. You can copy the code from the format line and add to your book.\nproject: \n  type: book\nbook: \n  title: \"Main title of the master thesis\"\n  subtitle: \"Subtitle of the master thesis\"\n  author: \"Daniel Hammarström\"\n  date: \"2024-05-15\"\n  chapters:\n    - index.qmd\n    - intro.qmd\n    - titlepagetutorial.qmd\n    - summary.qmd\n    - references.qmd\n    \nbibliography: resources/references.bib\n\nformat:\n  html:\n    theme: cosmo\n  titlepage-pdf: \n    titlepage: vline \n    titlepage-logo: \"img/inn_eng.png\"\n    titlepage-footer: | # text\n      Faculty of Social and Health Sciences\\\n      Department of Public Health and Sport Sciences\\\n      May 2024\n    titlepage-geometry: [\"top=1in\", \"bottom=1in\", \"right=1in\", \"left=1in\"]\n    titlepage-theme:\n      elements: [\"\\\\titleblock\", \"\\\\authorblock\", \"\\\\vfill\", \"\\\\affiliationblock\",  \"\\\\logoblock\", \"\\\\footerblock\"]\n      page-align: \"left\"\n      title-style: \"plain\"\n      title-fontstyle: [\"large\", \"bfseries\"]\n      title-space-after: \"4\\\\baselineskip\"\n      subtitle-fontstyle: [\"large\", \"textit\"]\n      author-style: \"superscript-with-and\"\n      author-fontstyle: \"large\"\n      affiliation-style: \"numbered-list-with-correspondence\"\n      affiliation-fontstyle: \"large\"\n      affiliation-space-after: \"0pt\"\n      footer-style: \"plain\"\n      footer-fontstyle: \"large\"\n      logo-size: \"0.15\\\\textheight\"\n      logo-space-after: \"1\\\\baselineskip\"\n      vrule-width: \"2pt\"\n      vrule-align: \"left\"\n      vrule-color: \"black\"\n      date-style: \"colorbox\"\n      date-fontfamily: \"Arial\"\n      date-fontsize: 12\n      date-spacing: 20\n      date-fontstyle: [\"slseries\"]\n      date-align: left\n      date-space-after: 1in\n      date-colorbox-fill: \"cyan\"\n      date-colorbox-borderwidth: 2pt\n      date-colorbox-bordercolor: \"black\"\n\n\n\nThe un-truncated code is available on github",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Creating and editing a title page</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Klein, Olivier, Tom E. Hardwicke, Frederik Aust, Johannes Breuer, Henrik\nDanielsson, Alicia Hofelich Mohr, Hans IJzerman, Gustav Nilsonne, Wolf\nVanpaemel, and Michael C. Frank. 2018. “A Practical\nGuide for Transparency in Psychological\nScience.” Edited by Michéle Nuijten and Simine Vazire.\nCollabra: Psychology 4 (1): 20. https://doi.org/10.1525/collabra.158.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
